@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery mobile</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+            <div data-role="page" id="home">
+                <!-- Header -->
+                <div data-role="header">
+                    <h1>Welcome to My Mobile Site</h1>
+                </div>
+                
+                <!-- Content -->
+                <div data-role="content">
+                    <p>Hello, this is a simple mobile website using jQuery Mobile.</p>
+                    <a href="#second" data-role="button">Go to Second Page</a>
+                </div>
+                
+                <!-- Footer -->
+                <div data-role="footer" data-position="fixed">
+                    <h4>My Footer Text</h4>
+                </div>
+              </div>
+
+              <div data-role="page" id="second">
+                    <div data-role="header">
+                        <a href="#home" data-role="button">Back to Home</a>
+                        <h1>Second Page</h1>
+                    </div>
+  
+                <div data-role="content">
+                    <p>This is the second page.</p>
+                </div>
+  
+            <div data-role="footer" data-position="fixed">
+                <h4>My Footer Text</h4>
+            </div>
+            </div>
+
+              
+</body>
+</html>
